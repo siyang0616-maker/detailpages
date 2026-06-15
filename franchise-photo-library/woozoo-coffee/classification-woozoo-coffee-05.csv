@@ -1,0 +1,42 @@
+seq,category,notes
+161,02-interior-seating,브랜드 로고 벽면
+162,01-exterior-signage,외부 전면 간판
+163,01-exterior-signage,외부 전면과 쇼윈도
+164,05-food-drink-menu,음료 제품컷
+165,02-interior-seating,창가 좌석
+166,02-interior-seating,창가 좌석과 브랜드 월사인
+167,03-counter-kiosk-order,카운터와 메뉴보드
+168,02-interior-seating,브랜드 월사인과 좌석
+169,02-interior-seating,브랜드 로고 벽면
+170,02-interior-seating,넓은 좌석 공간
+171,02-interior-seating,좌석과 카운터 방향
+172,06-menu-promotion,굿즈 진열대
+173,04-kitchen-equipment,커피머신 장비 클로즈업
+174,02-interior-seating,브랜드 월사인과 좌석
+175,02-interior-seating,브랜드 그래픽 벽면
+176,06-menu-promotion,굿즈 진열대
+177,02-interior-seating,소형 좌석 공간
+178,02-interior-seating,소형 좌석 공간
+179,02-interior-seating,브랜드 로고 벽면
+180,06-menu-promotion,외부 메뉴 입간판
+181,03-counter-kiosk-order,키오스크와 진열대
+182,02-interior-seating,좌석 공간
+183,03-counter-kiosk-order,카운터와 쇼케이스
+184,04-kitchen-equipment,커피머신 장비 클로즈업
+185,02-interior-seating,좌석과 포스터
+186,02-interior-seating,창가 좌석
+187,03-counter-kiosk-order,카운터와 내부 동선
+188,02-interior-seating,넓은 좌석 공간
+189,04-kitchen-equipment,커피머신 장비 클로즈업
+190,05-food-drink-menu,음료와 디저트 제품컷
+191,02-interior-seating,벽면 그래픽
+192,05-food-drink-menu,머그컵 제품컷
+193,03-counter-kiosk-order,키오스크 주문 동선
+194,06-menu-promotion,굿즈 진열대
+195,03-counter-kiosk-order,카운터와 출입구 동선
+196,02-interior-seating,브랜드 월사인과 좌석
+197,06-menu-promotion,굿즈 진열대
+198,03-counter-kiosk-order,카운터와 내부 동선
+199,02-interior-seating,브랜드 월사인과 좌석
+200,02-interior-seating,브랜드 월사인과 좌석
+

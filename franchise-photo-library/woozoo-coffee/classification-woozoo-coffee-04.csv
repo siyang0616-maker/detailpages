@@ -1,0 +1,42 @@
+seq,category,notes
+121,02-interior-seating,브랜드 월사인
+122,02-interior-seating,브랜드 월사인과 좌석
+123,06-menu-promotion,굿즈 진열대
+124,01-exterior-signage,외부 전면과 쇼윈도
+125,02-interior-seating,창가 좌석
+126,03-counter-kiosk-order,카운터와 장비
+127,02-interior-seating,좌석 공간
+128,02-interior-seating,브랜드 로고 벽면
+129,02-interior-seating,소형 좌석 공간
+130,06-menu-promotion,외부 메뉴 입간판
+131,06-menu-promotion,외부 프로모션 입간판
+132,04-kitchen-equipment,커피머신 장비 클로즈업
+133,02-interior-seating,소형 좌석 공간
+134,05-food-drink-menu,음료 제품컷
+135,04-kitchen-equipment,커피머신 장비 클로즈업
+136,03-counter-kiosk-order,카운터 메뉴보드
+137,02-interior-seating,좌석과 진열대
+138,02-interior-seating,좌석과 굿즈 진열대
+139,02-interior-seating,화장실/내부 동선
+140,02-interior-seating,좌석과 브랜드 월사인
+141,03-counter-kiosk-order,키오스크 메뉴 화면
+142,06-menu-promotion,디저트/음료 홍보물
+143,03-counter-kiosk-order,카운터와 장비
+144,02-interior-seating,좌석과 브랜드 월사인
+145,04-kitchen-equipment,커피머신 장비 클로즈업
+146,02-interior-seating,브랜드 로고 벽면
+147,05-food-drink-menu,음료 제품컷
+148,04-kitchen-equipment,커피머신과 카운터
+149,03-counter-kiosk-order,카운터와 메뉴보드
+150,06-menu-promotion,외부 메뉴판
+151,03-counter-kiosk-order,카운터와 좌석 방향
+152,06-menu-promotion,메뉴 포스터
+153,02-interior-seating,브랜드 월사인과 좌석
+154,01-exterior-signage,야간 외부 전면 간판
+155,03-counter-kiosk-order,카운터와 내부 동선
+156,05-food-drink-menu,커피 제품컷
+157,03-counter-kiosk-order,카운터와 내부 동선
+158,03-counter-kiosk-order,카운터와 메뉴보드
+159,03-counter-kiosk-order,카운터와 메뉴보드
+160,01-exterior-signage,외부 전면 간판
+

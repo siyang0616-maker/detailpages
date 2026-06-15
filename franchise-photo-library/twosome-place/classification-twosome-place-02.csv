@@ -1,0 +1,42 @@
+seq,category,notes
+41,03-counter-kiosk-order,카운터와 디저트 쇼케이스
+42,02-interior-seating,내부 계단과 좌석 동선
+43,02-interior-seating,좌석과 진열대
+44,03-counter-kiosk-order,키오스크 주문 동선
+45,05-food-drink-menu,케이크 제품컷
+46,02-interior-seating,좌석 공간
+47,05-food-drink-menu,커피와 디저트 제품컷
+48,02-interior-seating,좌석과 카운터 방향
+49,05-food-drink-menu,케이크 쇼케이스
+50,05-food-drink-menu,케이크 쇼케이스
+51,06-menu-promotion,벽면 디지털 프로모션
+52,05-food-drink-menu,디저트 쇼케이스
+53,03-counter-kiosk-order,키오스크 주문 동선
+54,02-interior-seating,좌석과 쇼케이스 방향
+55,01-exterior-signage,외부 전면 간판
+56,05-food-drink-menu,케이크 제품컷
+57,01-exterior-signage,외부 전면 간판
+58,05-food-drink-menu,케이크 쇼케이스
+59,05-food-drink-menu,케이크 제품컷
+60,02-interior-seating,단체석 테이블
+61,05-food-drink-menu,커피와 디저트 제품컷
+62,02-interior-seating,넓은 좌석 공간
+63,03-counter-kiosk-order,카운터와 메뉴보드
+64,03-counter-kiosk-order,카운터와 쇼케이스
+65,01-exterior-signage,외부 출입구
+66,03-counter-kiosk-order,카운터와 쇼케이스
+67,02-interior-seating,넓은 좌석 공간
+68,02-interior-seating,넓은 좌석 공간
+69,05-food-drink-menu,케이크 쇼케이스
+70,06-menu-promotion,상품 진열대
+71,02-interior-seating,넓은 좌석 공간
+72,03-counter-kiosk-order,카운터와 메뉴보드
+73,02-interior-seating,창가 좌석 공간
+74,03-counter-kiosk-order,출입구와 쇼케이스 동선
+75,01-exterior-signage,외부 간판과 쇼윈도
+76,06-menu-promotion,브랜드 그래픽 이미지
+77,06-menu-promotion,상품 진열대
+78,02-interior-seating,창가 좌석
+79,05-food-drink-menu,케이크 쇼케이스
+80,06-menu-promotion,디지털 메뉴보드
+
