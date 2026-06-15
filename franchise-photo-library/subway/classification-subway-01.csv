@@ -1,0 +1,42 @@
+seq,category,notes
+1,03-counter-kiosk-order,카운터와 내부 주문 동선
+2,01-exterior-signage,외부 전면 간판과 출입구
+3,01-exterior-signage,외부 전면 간판
+4,05-food-drink-menu,제품 이미지 컷
+5,05-food-drink-menu,샌드위치와 음료 제품컷
+6,03-counter-kiosk-order,키오스크와 주문 동선
+7,01-exterior-signage,외부 전면 간판
+8,03-counter-kiosk-order,카운터와 메뉴보드
+9,01-exterior-signage,외부 전면 간판
+10,02-interior-seating,창가 좌석
+11,01-exterior-signage,외부 간판과 쇼윈도
+12,02-interior-seating,좌석 공간
+13,02-interior-seating,좌석과 카운터 방향
+14,02-interior-seating,좌석과 브랜드 월사인
+15,05-food-drink-menu,샌드위치 제품컷
+16,02-interior-seating,좌석 공간
+17,01-exterior-signage,외부 전면 간판
+18,01-exterior-signage,외부 전면 간판
+19,01-exterior-signage,외부 전면 간판
+20,01-exterior-signage,외부 전면 간판
+21,01-exterior-signage,외부 전면 간판
+22,06-menu-promotion,브랜드 로고 그래픽
+23,05-food-drink-menu,샌드위치 포장 제품컷
+24,02-interior-seating,좌석과 내부 벽면
+25,02-interior-seating,창가 좌석
+26,05-food-drink-menu,샌드위치 재료 쇼케이스
+27,03-counter-kiosk-order,출입구와 줄서기 동선
+28,01-exterior-signage,외부 출입구와 간판
+29,03-counter-kiosk-order,카운터와 메뉴보드
+30,02-interior-seating,좌석과 카운터 방향
+31,02-interior-seating,좌석 공간
+32,01-exterior-signage,외부 간판과 쇼윈도
+33,02-interior-seating,좌석과 브랜드 월사인
+34,02-interior-seating,좌석과 브랜드 컬러 벽면
+35,02-interior-seating,좌석과 벽면 문구
+36,02-interior-seating,좌석과 브랜드 월사인
+37,03-counter-kiosk-order,카운터와 주문 동선
+38,01-exterior-signage,외부 전면 간판과 출입구
+39,02-interior-seating,브랜드 벽면 그래픽과 좌석
+40,02-interior-seating,좌석과 매장 내부
+

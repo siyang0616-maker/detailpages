@@ -1,0 +1,42 @@
+seq,category,notes
+81,02-interior-seating,좌석과 포스터 벽면
+82,02-interior-seating,좌석과 브랜드 월사인
+83,03-counter-kiosk-order,카운터와 메뉴보드
+84,02-interior-seating,창가 좌석과 출입구
+85,05-food-drink-menu,테이크아웃 컵 제품컷
+86,01-exterior-signage,외부 전면 간판
+87,03-counter-kiosk-order,키오스크 주문 동선
+88,03-counter-kiosk-order,카운터와 출입구 동선
+89,02-interior-seating,넓은 좌석 공간
+90,02-interior-seating,넓은 좌석 공간
+91,02-interior-seating,넓은 좌석 공간
+92,09-caution-unusable,인물 홍보물이 크게 노출됨
+93,05-food-drink-menu,음료와 디저트 제품컷
+94,05-food-drink-menu,음료 제품컷
+95,03-counter-kiosk-order,키오스크와 내부 동선
+96,03-counter-kiosk-order,카운터와 메뉴보드
+97,02-interior-seating,좌석과 브랜드 문구
+98,03-counter-kiosk-order,카운터와 메뉴보드
+99,03-counter-kiosk-order,카운터와 메뉴보드
+100,02-interior-seating,좌석 공간
+101,01-exterior-signage,외부 주문창과 간판
+102,03-counter-kiosk-order,카운터와 메뉴보드
+103,03-counter-kiosk-order,카운터와 키오스크
+104,01-exterior-signage,외부 주문창과 키오스크
+105,09-caution-unusable,키오스크 화면에 인물 홍보물이 크게 노출됨
+106,01-exterior-signage,외부 전면 간판
+107,02-interior-seating,창가 좌석
+108,03-counter-kiosk-order,카운터와 메뉴보드
+109,03-counter-kiosk-order,카운터와 메뉴보드
+110,05-food-drink-menu,음료 제품컷
+111,01-exterior-signage,외부 전면 간판
+112,02-interior-seating,좌석 공간
+113,01-exterior-signage,외부 주문창과 간판
+114,03-counter-kiosk-order,카운터와 베이커리 진열
+115,03-counter-kiosk-order,카운터와 메뉴보드
+116,05-food-drink-menu,음료 제품컷
+117,02-interior-seating,넓은 좌석 공간
+118,01-exterior-signage,외부 전면 간판
+119,05-food-drink-menu,음료 제품컷
+120,03-counter-kiosk-order,카운터와 내부 동선
+

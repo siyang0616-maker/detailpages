@@ -1,0 +1,42 @@
+seq,category,notes
+121,03-counter-kiosk-order,카운터와 메뉴보드
+122,03-counter-kiosk-order,카운터와 좌석 방향
+123,05-food-drink-menu,샌드위치 포장 제품컷
+124,02-interior-seating,좌석과 브랜드 월사인
+125,03-counter-kiosk-order,카운터와 쇼케이스
+126,01-exterior-signage,외부 전면 간판
+127,05-food-drink-menu,샌드위치 재료 쇼케이스
+128,02-interior-seating,좌석 공간
+129,02-interior-seating,좌석과 브랜드 그래픽
+130,06-menu-promotion,앱 주문 프로모션 이미지
+131,01-exterior-signage,외부 전면 간판
+132,02-interior-seating,좌석 공간
+133,02-interior-seating,창가 좌석
+134,02-interior-seating,브랜드 월사인과 쇼케이스
+135,05-food-drink-menu,샌드위치 제품컷
+136,02-interior-seating,좌석과 브랜드 월사인
+137,01-exterior-signage,외부 야간 간판
+138,02-interior-seating,좌석 공간
+139,03-counter-kiosk-order,키오스크와 주문 동선
+140,02-interior-seating,브랜드 네온사인과 좌석
+141,02-interior-seating,부스형 좌석
+142,03-counter-kiosk-order,키오스크 주문 동선
+143,05-food-drink-menu,샌드위치 재료 쇼케이스
+144,05-food-drink-menu,샌드위치 재료 쇼케이스
+145,02-interior-seating,좌석과 벽면 그래픽
+146,03-counter-kiosk-order,카운터와 메뉴보드
+147,02-interior-seating,좌석과 브랜드 월사인
+148,01-exterior-signage,외부 전면 간판
+149,03-counter-kiosk-order,키오스크 주문 동선
+150,02-interior-seating,좌석 공간
+151,03-counter-kiosk-order,키오스크와 좌석 동선
+152,03-counter-kiosk-order,키오스크와 좌석 동선
+153,03-counter-kiosk-order,키오스크 주문 동선
+154,03-counter-kiosk-order,음료 디스펜서와 운영 동선
+155,02-interior-seating,좌석과 음료 코너
+156,01-exterior-signage,외부 전면 간판
+157,03-counter-kiosk-order,음료 디스펜서
+158,03-counter-kiosk-order,음료 디스펜서와 냉장고
+159,02-interior-seating,창가 좌석과 쇼케이스
+160,03-counter-kiosk-order,카운터와 음료 코너
+

@@ -1,0 +1,42 @@
+seq,category,notes
+361,02-interior-seating,넓은 좌석 공간; 사람 있음
+362,02-interior-seating,창가 좌석 공간; 사람 있음
+363,07-street-trade-area,도로 건너편에서 보이는 매장 전경
+364,03-counter-kiosk-order,카운터와 주문 동선
+365,02-interior-seating,좌석과 벽면 그래픽; 사람 있음
+366,02-interior-seating,좌석과 내부 동선; 사람 있음
+367,03-counter-kiosk-order,카운터와 메뉴보드
+368,02-interior-seating,좌석 공간; 사람 있음
+369,03-counter-kiosk-order,카운터와 내부 동선
+370,07-street-trade-area,건물 외부와 주변 동선
+371,01-exterior-signage,외부 출입구와 간판
+372,03-counter-kiosk-order,카운터와 쇼케이스
+373,01-exterior-signage,외부 전면 간판
+374,02-interior-seating,좌석과 브랜드 월사인
+375,02-interior-seating,좌석과 벽면 문구
+376,02-interior-seating,좌석과 내부 동선
+377,02-interior-seating,좌석 공간; 사람 있음
+378,02-interior-seating,좌석과 브랜드 월사인
+379,02-interior-seating,좌석과 내부 벽면
+380,03-counter-kiosk-order,카운터와 메뉴보드
+381,09-caution-unusable,인물 홍보물이 크게 노출됨
+382,04-kitchen-equipment,커피머신과 제조 장비
+383,09-caution-unusable,인물 홍보물이 크게 노출됨
+384,03-counter-kiosk-order,카운터와 쇼케이스
+385,03-counter-kiosk-order,카운터와 내부 좌석 방향
+386,07-street-trade-area,거리 전경과 매장 노출
+387,01-exterior-signage,외부 출입구와 간판
+388,02-interior-seating,좌석 공간; 사람 있음
+389,01-exterior-signage,외부 전면 간판
+390,02-interior-seating,좌석과 내부 동선
+391,03-counter-kiosk-order,카운터와 키오스크 동선
+392,02-interior-seating,좌석과 벽면 그래픽
+393,02-interior-seating,긴 좌석 동선
+394,02-interior-seating,좌석과 내부 동선
+395,03-counter-kiosk-order,카운터와 메뉴보드
+396,07-street-trade-area,도로변 매장 전경
+397,02-interior-seating,좌석과 내부 동선; 사람 있음
+398,02-interior-seating,좌석과 진열대; 사람 있음
+399,02-interior-seating,소형 좌석 공간; 사람 있음
+400,09-caution-unusable,사람과 인물 홍보물이 보임
+

@@ -1,0 +1,42 @@
+seq,category,notes
+1,05-food-drink-menu,버거 제품컷
+2,02-interior-seating,창가 좌석
+3,03-counter-kiosk-order,카운터와 메뉴보드
+4,05-food-drink-menu,버거 세트 제품컷
+5,03-counter-kiosk-order,카운터와 주문 동선
+6,03-counter-kiosk-order,키오스크 주문 동선
+7,02-interior-seating,좌석과 카운터 방향
+8,02-interior-seating,창가 좌석과 프로모션
+9,03-counter-kiosk-order,키오스크 주문 동선
+10,02-interior-seating,좌석 공간
+11,03-counter-kiosk-order,키오스크와 매장 내부
+12,03-counter-kiosk-order,카운터와 키오스크
+13,03-counter-kiosk-order,카운터와 주문 동선
+14,01-exterior-signage,외부 출입구
+15,02-interior-seating,좌석과 키오스크 방향
+16,02-interior-seating,좌석과 브랜드 벽면
+17,03-counter-kiosk-order,키오스크와 메뉴보드
+18,05-food-drink-menu,버거와 감자튀김 제품컷
+19,05-food-drink-menu,버거 세트 제품컷
+20,02-interior-seating,좌석 공간
+21,03-counter-kiosk-order,키오스크와 카운터
+22,03-counter-kiosk-order,카운터와 메뉴보드
+23,02-interior-seating,좌석 공간
+24,05-food-drink-menu,버거 세트 제품컷
+25,02-interior-seating,출입구와 좌석 동선
+26,03-counter-kiosk-order,키오스크와 카운터
+27,03-counter-kiosk-order,카운터와 메뉴보드
+28,02-interior-seating,좌석 공간
+29,03-counter-kiosk-order,키오스크 주문 동선
+30,02-interior-seating,좌석 공간
+31,03-counter-kiosk-order,키오스크와 주문 동선
+32,02-interior-seating,좌석과 카운터 방향
+33,03-counter-kiosk-order,키오스크와 메뉴보드
+34,05-food-drink-menu,버거 제품컷
+35,01-exterior-signage,외부 전면 간판
+36,02-interior-seating,벽면 메뉴 이미지와 좌석
+37,09-caution-unusable,인물 홍보물이 크게 노출됨
+38,03-counter-kiosk-order,키오스크와 카운터
+39,02-interior-seating,출입구 방향 좌석
+40,05-food-drink-menu,브랜드 패키지 제품컷
+

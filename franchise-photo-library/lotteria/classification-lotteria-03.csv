@@ -1,0 +1,36 @@
+seq,category,notes
+81,02-interior-seating,좌석과 카운터 방향
+82,02-interior-seating,좌석과 키오스크 방향
+83,03-counter-kiosk-order,키오스크 주문 동선
+84,06-menu-promotion,충전 안내와 좌석
+85,02-interior-seating,좌석과 내부 벽면
+86,03-counter-kiosk-order,카운터와 키오스크
+87,03-counter-kiosk-order,카운터와 메뉴보드
+88,02-interior-seating,좌석과 카운터 방향
+89,03-counter-kiosk-order,키오스크와 카운터
+90,02-interior-seating,좌석과 창가
+91,02-interior-seating,좌석과 내부 동선
+92,01-exterior-signage,외부 전면 간판
+93,03-counter-kiosk-order,카운터와 메뉴보드
+94,01-exterior-signage,외부 전면 간판
+95,02-interior-seating,출입구와 내부 동선
+96,02-interior-seating,넓은 좌석과 카운터 방향; 사람 있음
+97,02-interior-seating,넓은 좌석과 카운터 방향; 사람 있음
+98,02-interior-seating,좌석과 내부 벽면; 사람 있음
+99,02-interior-seating,좌석과 카운터 방향; 사람 있음
+100,02-interior-seating,좌석과 카운터 방향
+101,03-counter-kiosk-order,카운터와 메뉴보드
+102,06-menu-promotion,제품 프로모션 포스터
+103,05-food-drink-menu,제품 이미지 컷
+104,03-counter-kiosk-order,카운터와 키오스크
+105,01-exterior-signage,외부 전면 간판
+106,01-exterior-signage,외부 간판 클로즈업
+107,01-exterior-signage,외부 출입구와 간판
+108,02-interior-seating,좌석과 카운터 방향
+109,03-counter-kiosk-order,카운터와 키오스크
+110,01-exterior-signage,외부 전면 간판
+111,02-interior-seating,좌석과 내부 동선
+112,02-interior-seating,넓은 좌석 공간
+113,02-interior-seating,브랜드 컬러 벽면과 좌석
+114,02-interior-seating,좌석 공간
+

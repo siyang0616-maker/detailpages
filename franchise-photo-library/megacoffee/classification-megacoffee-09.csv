@@ -1,0 +1,42 @@
+seq,category,notes
+321,02-interior-seating,좌석과 카운터 방향
+322,03-counter-kiosk-order,카운터와 메뉴보드
+323,01-exterior-signage,외부 전면 간판
+324,02-interior-seating,창가 좌석
+325,03-counter-kiosk-order,카운터와 쇼케이스
+326,03-counter-kiosk-order,카운터와 메뉴보드
+327,02-interior-seating,창가 좌석
+328,03-counter-kiosk-order,키오스크와 주문 동선
+329,03-counter-kiosk-order,카운터와 메뉴보드
+330,03-counter-kiosk-order,카운터와 쇼케이스
+331,02-interior-seating,좌석과 브랜드 월사인
+332,02-interior-seating,브랜드 로고 벽면
+333,06-menu-promotion,진열대와 홍보물
+334,03-counter-kiosk-order,카운터와 메뉴보드
+335,01-exterior-signage,외부 전면 간판
+336,01-exterior-signage,외부 전면 간판
+337,02-interior-seating,창가 좌석
+338,02-interior-seating,좌석과 내부 동선
+339,03-counter-kiosk-order,카운터와 메뉴보드
+340,02-interior-seating,노란 벽면 좌석
+341,03-counter-kiosk-order,출입구와 카운터 동선
+342,02-interior-seating,좌석 공간
+343,06-menu-promotion,외부 디저트 메뉴 안내판
+344,01-exterior-signage,외부 전면 간판
+345,02-interior-seating,좌석과 벽면 그래픽
+346,02-interior-seating,좌석과 벽면 그래픽
+347,01-exterior-signage,외부 전면 간판
+348,03-counter-kiosk-order,카운터와 주문 동선
+349,01-exterior-signage,외부 전면 간판
+350,02-interior-seating,좌석과 내부 공간
+351,02-interior-seating,넓은 좌석 공간
+352,02-interior-seating,넓은 좌석 공간
+353,02-interior-seating,좌석과 내부 동선
+354,02-interior-seating,넓은 좌석 공간
+355,02-interior-seating,브랜드 월사인과 좌석
+356,07-street-trade-area,거리와 건물 전면에서 보이는 매장
+357,07-street-trade-area,거리 전경과 매장 노출
+358,07-street-trade-area,코너 건물과 매장 전면
+359,02-interior-seating,좌석과 내부 동선
+360,02-interior-seating,긴 좌석 동선
+

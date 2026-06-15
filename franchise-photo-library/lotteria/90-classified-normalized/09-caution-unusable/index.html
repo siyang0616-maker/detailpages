@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>프랜차이즈 상세페이지 리뷰</title>
+  <style>
+    body { margin:0; background:#f8fafc; color:#171717; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",Pretendard,sans-serif; }
+    header { position:sticky; top:0; z-index:2; padding:16px 20px; background:rgba(255,255,255,.95); border-bottom:1px solid #e5e7eb; backdrop-filter:blur(12px); }
+    h1 { margin:0 0 8px; font-size:20px; }
+    button, a.download { border:1px solid #111827; background:#111827; color:#fff; border-radius:8px; padding:9px 12px; font-size:14px; text-decoration:none; cursor:pointer; }
+    a.download { background:#fff; color:#111827; }
+    main { max-width:980px; margin:0 auto; padding:24px 14px 72px; }
+    article { margin:0 0 22px; overflow:hidden; background:#fff; border:1px solid #e5e7eb; border-radius:10px; box-shadow:0 10px 26px rgba(15,23,42,.05); }
+    .meta { display:flex; justify-content:space-between; gap:12px; align-items:center; padding:14px 16px; border-bottom:1px solid #e5e7eb; }
+    h2 { margin:0; font-size:16px; }
+    .qa { color:#6b7280; font-size:13px; }
+    img { display:block; width:100%; height:auto; background:#fff; }
+    .links { padding:12px 16px; border-top:1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>프랜차이즈 상세페이지 리뷰</h1>
+    <button type="button" id="downloadAll">전체 다운로드</button>
+    <span class="qa">총 1컷</span>
+  </header>
+  <main>
+    
+      <article>
+        <div class="meta"><h2>cut-01</h2><span class="qa">QA: 확인 필요</span></div>
+        <img src="./lotteria_caution_unusable_001.jpg" alt="cut-01" />
+        <div class="links"><a class="download" href="./lotteria_caution_unusable_001.jpg" download="cut-01-lotteria_caution_unusable_001.jpg">이 컷 다운로드</a></div>
+      </article>
+    
+  </main>
+  <script>
+    const links = [...document.querySelectorAll("a.download")];
+    document.getElementById("downloadAll").addEventListener("click", () => {
+      links.forEach((link, index) => setTimeout(() => link.click(), index * 160));
+    });
+  </script>
+</body>
+</html>

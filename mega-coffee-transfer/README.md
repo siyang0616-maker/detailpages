@@ -6,6 +6,16 @@
 
 - `images/cut-01.png` ~ `images/cut-12.png`: 상세페이지 12컷 이미지
 - `index.html`: 브라우저 미리보기 페이지
+- `open-preview.bat`: Windows에서 미리보기 페이지를 바로 여는 실행 파일
+- `WINDOWS_START_HERE.md`: Windows에서 이어 작업하기 위한 시작 메모
+
+## Windows에서 이어 작업하기
+
+1. `open-preview.bat`을 더블클릭해서 현재 상세페이지를 확인합니다.
+2. 문구와 미리보기 구조는 `index.html`에서 수정합니다.
+3. 상세페이지 이미지는 `images/` 폴더의 `cut-01.png` 형식을 유지해서 교체합니다.
+
+이 프로젝트는 정적 HTML과 PNG 이미지로 구성되어 있어 Node/npm 설치나 빌드 과정이 필요 없습니다.
 
 ## 제작 기준
 

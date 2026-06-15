@@ -1,0 +1,42 @@
+seq,category,notes
+1,01-exterior-signage,외부 전면 간판과 출입구
+2,05-food-drink-menu,테이크아웃 컵 제품컷
+3,03-counter-kiosk-order,카운터와 메뉴보드
+4,01-exterior-signage,외부 간판과 출입구
+5,02-interior-seating,좌석 공간
+6,02-interior-seating,좌석과 브랜드 월사인
+7,02-interior-seating,좌석과 브랜드 월사인
+8,02-interior-seating,좌석과 브랜드 벽면
+9,09-caution-unusable,인물 홍보물이 크게 노출됨
+10,02-interior-seating,좌석과 브랜드 문구
+11,09-caution-unusable,인물 홍보물이 크게 노출됨
+12,02-interior-seating,넓은 좌석 공간
+13,03-counter-kiosk-order,카운터와 메뉴보드
+14,01-exterior-signage,출입구와 외부 동선
+15,01-exterior-signage,외부 전면 간판
+16,06-menu-promotion,키오스크 메뉴 화면
+17,02-interior-seating,브랜드 벽면 그래픽
+18,02-interior-seating,넓은 좌석과 카운터 방향
+19,01-exterior-signage,야간 외부 전면 간판
+20,02-interior-seating,좌석 공간
+21,02-interior-seating,좌석 디테일
+22,03-counter-kiosk-order,주문 동선과 쇼케이스
+23,06-menu-promotion,디지털 메뉴보드와 프로모션
+24,03-counter-kiosk-order,카운터와 키오스크
+25,09-caution-unusable,인물 홍보물이 크게 노출됨
+26,05-food-drink-menu,음료 제품컷
+27,03-counter-kiosk-order,카운터와 주문 동선
+28,03-counter-kiosk-order,키오스크 주문 동선
+29,02-interior-seating,좌석 공간
+30,01-exterior-signage,외부 전면 간판
+31,01-exterior-signage,외부 전면 간판
+32,01-exterior-signage,외부 주문창과 간판
+33,02-interior-seating,넓은 좌석 공간
+34,05-food-drink-menu,음료 제품컷
+35,02-interior-seating,넓은 좌석 공간
+36,02-interior-seating,넓은 좌석 공간
+37,01-exterior-signage,외부 간판과 매장 전면
+38,03-counter-kiosk-order,카운터와 메뉴보드
+39,01-exterior-signage,외부 주문창과 홍보물
+40,09-caution-unusable,인물 이미지가 크게 노출된 컵 제품컷
+

@@ -1,0 +1,42 @@
+seq,category,notes
+161,03-counter-kiosk-order,카운터와 메뉴보드
+162,01-exterior-signage,외부 전면 간판
+163,02-interior-seating,좌석과 내부 그래픽
+164,01-exterior-signage,외부 출입구와 홍보물
+165,06-menu-promotion,진열대와 메뉴 홍보물
+166,03-counter-kiosk-order,카운터 메뉴보드와 픽업 동선
+167,02-interior-seating,좌석과 내부 동선
+168,02-interior-seating,좌석 공간
+169,06-menu-promotion,내부 진열과 안내물
+170,06-menu-promotion,디지털 메뉴보드와 프로모션
+171,02-interior-seating,창가 좌석 공간
+172,02-interior-seating,노란 벽면 좌석
+173,01-exterior-signage,외부 전면 간판
+174,01-exterior-signage,외부 전면 간판과 출입구
+175,01-exterior-signage,외부 전면 간판
+176,02-interior-seating,좌석과 카운터 방향
+177,02-interior-seating,좌석 공간
+178,01-exterior-signage,외부 출입구와 간판
+179,06-menu-promotion,메뉴보드와 홍보물
+180,06-menu-promotion,디지털 메뉴보드
+181,09-caution-unusable,인물 홍보물이 크게 노출됨
+182,02-interior-seating,좌석과 내부 벽면
+183,02-interior-seating,노란 벽면 좌석
+184,01-exterior-signage,외부 전면 간판
+185,01-exterior-signage,외부 전면과 행사 포스터
+186,03-counter-kiosk-order,카운터와 메뉴보드
+187,02-interior-seating,좌석과 벽면 그래픽
+188,03-counter-kiosk-order,카운터와 매장 내부
+189,02-interior-seating,넓은 좌석 공간
+190,03-counter-kiosk-order,주문 동선과 내부 진열
+191,02-interior-seating,좌석과 브랜드 월사인
+192,02-interior-seating,벽면 그래픽과 좌석
+193,06-menu-promotion,디지털 홍보물
+194,02-interior-seating,좌석과 카운터 방향
+195,02-interior-seating,벽면 그래픽과 좌석
+196,03-counter-kiosk-order,카운터와 주문 동선
+197,03-counter-kiosk-order,카운터 쇼케이스
+198,06-menu-promotion,내부 진열과 홍보물
+199,03-counter-kiosk-order,카운터와 메뉴보드
+200,03-counter-kiosk-order,카운터 앞 홍보물
+

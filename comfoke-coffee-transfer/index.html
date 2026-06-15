@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>컴포크커피 양도양수 상세페이지</title>
+  <style>
+    :root {
+      --ink: #201a16;
+      --muted: #6e6258;
+      --line: #e2d8c9;
+      --paper: #fffaf2;
+      --cream: #f4ecdd;
+      --gold: #e7b72f;
+      --coffee: #5a341e;
+      --green: #1f6b58;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      word-break: keep-all;
+    }
+
+    header {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      padding: 48px 18px 32px;
+      background:
+        radial-gradient(circle at 18% 18%, rgba(231, 183, 47, .34), transparent 28%),
+        linear-gradient(145deg, rgba(90, 52, 30, .94), rgba(31, 107, 88, .86)),
+        var(--coffee);
+      color: var(--white);
+    }
+
+    .hero {
+      width: min(100%, 760px);
+      margin: 0 auto;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255, 255, 255, .38);
+      border-radius: 999px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, .88);
+    }
+
+    h1 {
+      margin: 24px 0 18px;
+      max-width: 680px;
+      font-size: clamp(38px, 8vw, 76px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 640px;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, .9);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 34px;
+    }
+
+    .metric {
+      min-height: 104px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      background: rgba(255, 255, 255, .1);
+      backdrop-filter: blur(6px);
+    }
+
+    .metric b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .metric span {
+      color: rgba(255, 255, 255, .8);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    main {
+      width: min(100%, 760px);
+      margin: 0 auto;
+      padding: 20px 14px 48px;
+    }
+
+    section {
+      margin: 0 0 14px;
+      padding: 34px 22px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+    }
+
+    .section-number {
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 10px 0 14px;
+      font-size: 28px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .band {
+      margin-top: 22px;
+      padding: 18px;
+      background: var(--white);
+      border-left: 4px solid var(--gold);
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: 96px 1fr;
+      gap: 14px;
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .label {
+      color: var(--coffee);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .value {
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .tile {
+      min-height: 128px;
+      padding: 18px;
+      background: var(--white);
+      border: 1px solid var(--line);
+    }
+
+    .tile strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--coffee);
+      font-size: 17px;
+    }
+
+    .notice {
+      background: #241811;
+      color: var(--white);
+    }
+
+    .notice p,
+    .notice .section-number {
+      color: rgba(255, 255, 255, .82);
+    }
+
+    footer {
+      width: min(100%, 760px);
+      margin: 0 auto;
+      padding: 0 14px 44px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        min-height: 88vh;
+      }
+
+      .hero-grid,
+      .tiles {
+        grid-template-columns: 1fr;
+      }
+
+      .item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div class="kicker">컴포크커피 양도양수 제안서 초안</div>
+      <h1>운영 흐름이 보이는 커피 매장, 숫자로 확인하고 인수하세요.</h1>
+      <p>브랜드 인지도, 입지, 매출 구조, 고정비를 한눈에 검토할 수 있도록 구성한 판매용 상세페이지 초안입니다. 실제 수치와 증빙자료를 넣으면 바로 실사용 버전으로 다듬을 수 있습니다.</p>
+      <div class="hero-grid">
+        <div class="metric"><b>입지</b><span>역세권, 주거지, 오피스 등 실제 상권 자료 입력</span></div>
+        <div class="metric"><b>매출</b><span>월매출과 성수기·비수기 흐름 확인 필요</span></div>
+        <div class="metric"><b>조건</b><span>권리금, 보증금, 월세, 관리비 분리 표기</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="section-number">CUT 01</div>
+      <h2>처음 보는 매장도 빠르게 판단할 수 있게</h2>
+      <p>양도양수 매물은 예쁜 문구보다 확인 가능한 정보가 중요합니다. 이 페이지는 예비 인수자가 가장 먼저 보는 입지, 매출, 비용, 운영 난이도를 순서대로 설득하는 구조로 설계했습니다.</p>
+      <div class="band">자료가 들어오면 지역명, 역명, 월매출, 창업비용, 임대조건을 이 영역부터 교체하세요.</div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 02</div>
+      <h2>브랜드는 익숙하게, 판단은 차분하게</h2>
+      <p>컴포크커피 매장 인수의 핵심은 브랜드 친숙도와 실제 점포 컨디션을 함께 보는 것입니다. 브랜드명만으로 결정하지 않도록, 점포별 숫자와 운영 조건을 분리해서 보여줍니다.</p>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 03</div>
+      <h2>입지 정보는 한 문장보다 구체적인 동선으로</h2>
+      <div class="list">
+        <div class="item"><div class="label">상권</div><div class="value">주거지, 학원가, 오피스, 유동인구 동선 중 실제 조건 입력</div></div>
+        <div class="item"><div class="label">접근성</div><div class="value">가까운 역명, 도보 거리, 대로변 여부, 배달 반경 확인</div></div>
+        <div class="item"><div class="label">고객층</div><div class="value">출근길, 점심, 하교, 퇴근, 주말 수요 중 강한 시간대 표기</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 04</div>
+      <h2>매출은 평균보다 흐름을 보여줘야 합니다</h2>
+      <p>월평균 매출만 보여주면 판단이 어렵습니다. 최근 6개월 또는 12개월 매출 흐름, 배달 비중, 객단가, 재방문 수요를 함께 정리하면 인수자가 리스크를 훨씬 빨리 이해합니다.</p>
+      <div class="tiles">
+        <div class="tile"><strong>월매출</strong><p>최근 기간 기준으로 입력</p></div>
+        <div class="tile"><strong>매출 변동</strong><p>계절성, 행사, 주변 공사 등 설명</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 05</div>
+      <h2>비용 구조는 숨기지 않을수록 신뢰가 생깁니다</h2>
+      <p>권리금, 보증금, 월세, 관리비, 인건비, 재료비를 구분해서 제시하면 협의 과정이 빨라집니다. 불확실한 항목은 비워두고 확인 필요로 표시하는 편이 안전합니다.</p>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 06</div>
+      <h2>운영 난이도는 예비 창업자가 가장 궁금해합니다</h2>
+      <div class="list">
+        <div class="item"><div class="label">인력</div><div class="value">점주 상주 여부, 파트타임 구성, 피크타임 필요 인원 입력</div></div>
+        <div class="item"><div class="label">배달</div><div class="value">홀·포장·배달 비중과 플랫폼 의존도 확인</div></div>
+        <div class="item"><div class="label">장비</div><div class="value">커피머신, 제빙기, 냉장고 등 승계 장비 목록 필요</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 07</div>
+      <h2>인수 포인트는 3개만 강하게</h2>
+      <div class="tiles">
+        <div class="tile"><strong>검증된 상권</strong><p>실제 유동과 재방문 흐름을 자료로 보강</p></div>
+        <div class="tile"><strong>운영 기반</strong><p>장비와 인테리어 승계 범위를 명확히 표기</p></div>
+        <div class="tile"><strong>비용 예측</strong><p>초기 투입 비용과 월 고정비를 분리</p></div>
+        <div class="tile"><strong>협의 가능성</strong><p>양도 사유와 일정, 본사 승계 절차 확인</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 08</div>
+      <h2>사진이 들어가면 설득력이 크게 올라갑니다</h2>
+      <p>실제 매장 외관, 내부 좌석, 카운터, 장비, 간판, 주변 동선을 넣으면 상세페이지가 훨씬 빨리 신뢰를 얻습니다. 현재 페이지는 사진 수급 전 문구와 구조를 먼저 잡은 버전입니다.</p>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 09</div>
+      <h2>본사 승계와 임대 조건은 별도 확인</h2>
+      <p>프랜차이즈 양도양수는 점포 조건만으로 끝나지 않습니다. 본사 가맹 승계 가능 여부, 교육 조건, 계약 잔여기간, 임대인 동의 여부를 실사용 전 반드시 확인해야 합니다.</p>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 10</div>
+      <h2>문의 전 준비 자료</h2>
+      <div class="list">
+        <div class="item"><div class="label">매출</div><div class="value">POS 매출, 카드 매출, 배달 플랫폼 정산 자료</div></div>
+        <div class="item"><div class="label">비용</div><div class="value">임대차 계약서, 관리비, 인건비, 재료비 자료</div></div>
+        <div class="item"><div class="label">점포</div><div class="value">시설 목록, 장비 상태, 수리 이력, 양도 제외 품목</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-number">CUT 11</div>
+      <h2>자료 확인 후 이런 순서로 수정하면 됩니다</h2>
+      <p>먼저 상단의 핵심 수치를 교체하고, 그다음 입지·매출·비용·운영 항목을 실제 자료에 맞춰 바꿉니다. 마지막으로 사진을 넣고 과장처럼 보이는 문장을 덜어내면 실사용 버전에 가까워집니다.</p>
+    </section>
+
+    <section class="notice">
+      <div class="section-number">CUT 12</div>
+      <h2>현재 버전은 판매용 초안입니다</h2>
+      <p>실제 매장 사진, 매출 증빙, 권리금과 임대조건, 본사 승계 가능 여부가 확인되기 전에는 최종 광고물로 사용하지 않는 것을 권장합니다. 자료가 들어오면 사실 기반 문구로 다시 정리하세요.</p>
+    </section>
+  </main>
+
+  <footer>
+    컴포크커피 양도양수 상세페이지 초안 · 실제 수치와 증빙자료 확인 후 최종 사용 권장
+  </footer>
+</body>
+</html>
+
