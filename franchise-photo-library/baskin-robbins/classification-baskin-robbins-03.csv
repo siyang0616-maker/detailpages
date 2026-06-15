@@ -1,0 +1,41 @@
+seq,category,notes
+81,09-caution-unusable,person visible at counter
+82,05-food-drink-menu,ice cream cone product cut
+83,06-menu-promotion,brand wall graphic
+84,01-exterior-signage,exterior storefront sign
+85,03-counter-kiosk-order,counter menu board and ice cream display
+86,02-interior-seating,seating and cake freezer context
+87,03-counter-kiosk-order,kiosk order area
+88,05-food-drink-menu,cake freezer display
+89,01-exterior-signage,exterior storefront sign
+90,03-counter-kiosk-order,kiosk order area
+91,02-interior-seating,seating and counter context
+92,02-interior-seating,seating and cake freezer context
+93,03-counter-kiosk-order,counter ice cream display
+94,01-exterior-signage,exterior storefront sign
+95,03-counter-kiosk-order,kiosk and order area
+96,05-food-drink-menu,cake freezer and product display
+97,05-food-drink-menu,ice cream cup product cut
+98,03-counter-kiosk-order,counter ice cream display
+99,03-counter-kiosk-order,counter ice cream display
+100,05-food-drink-menu,ice cream cone product cut
+101,03-counter-kiosk-order,kiosk order area
+102,09-caution-unusable,person visible near kiosk
+103,05-food-drink-menu,ice cream cone product cut
+104,03-counter-kiosk-order,counter menu board and ice cream display
+105,05-food-drink-menu,drink product cut
+106,01-exterior-signage,exterior storefront sign
+107,02-interior-seating,seating area
+108,03-counter-kiosk-order,counter ice cream display
+109,01-exterior-signage,exterior storefront sign
+110,05-food-drink-menu,packaged product cut
+111,03-counter-kiosk-order,kiosk order area
+112,02-interior-seating,interior order corridor
+113,01-exterior-signage,exterior storefront sign
+114,03-counter-kiosk-order,counter and kiosk area
+115,02-interior-seating,long table seating area
+116,03-counter-kiosk-order,kiosk order area
+117,01-exterior-signage,exterior storefront sign
+118,06-menu-promotion,product promotion rack
+119,03-counter-kiosk-order,counter and cake freezer context
+120,02-interior-seating,seating and cake freezer context

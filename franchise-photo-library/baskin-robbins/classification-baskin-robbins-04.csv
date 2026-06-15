@@ -1,0 +1,19 @@
+seq,category,notes
+121,03-counter-kiosk-order,kiosk order area
+122,03-counter-kiosk-order,kiosk order area
+123,03-counter-kiosk-order,counter menu board
+124,03-counter-kiosk-order,kiosk and counter area
+125,02-interior-seating,seating area with brand wall graphic
+126,05-food-drink-menu,cake freezer display
+127,02-interior-seating,seating area
+128,05-food-drink-menu,cake freezer display
+129,03-counter-kiosk-order,kiosk and cake freezer context
+130,01-exterior-signage,exterior storefront and street context
+131,01-exterior-signage,exterior storefront sign
+132,03-counter-kiosk-order,counter menu board and ice cream display
+133,02-interior-seating,interior counter corridor
+134,01-exterior-signage,exterior storefront sign
+135,09-caution-unusable,person visible at counter
+136,06-menu-promotion,brand promotion image
+137,09-caution-unusable,people visible near storefront
+138,01-exterior-signage,exterior sign closeup
