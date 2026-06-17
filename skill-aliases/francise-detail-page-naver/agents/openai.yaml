@@ -1,0 +1,8 @@
+interface:
+  display_name: "Francise Detail Page_Naver"
+  short_description: "Naver-style shortcut alias for Franchise Detail Page."
+  brand_color: "#D71920"
+  default_prompt: "Use $francise-detail-page-naver to create a Naver-style franchise detail page with real photos and blog-style consulting copy."
+
+policy:
+  allow_implicit_invocation: true

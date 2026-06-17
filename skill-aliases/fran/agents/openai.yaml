@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fran"
+  short_description: "Shortcut alias for Franchise Detail Page."
+  brand_color: "#D71920"
+  default_prompt: "Use $fran to create a franchise detail page with real photos and blog-style consulting copy."
+
+policy:
+  allow_implicit_invocation: true
