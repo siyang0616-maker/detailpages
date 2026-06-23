@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 
-ROOT = Path(r"C:\Users\home\Documents\detailpages")
+ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "franchise-detail-page-outputs" / "20260617-uijeongbu-megacoffee-naver"
 ASSETS = BASE / "assets"
 OUT = BASE / "v2-premium-preview"
@@ -20,17 +20,26 @@ WARM = (248, 245, 238)
 MUTED = (125, 118, 104)
 LINE = (226, 221, 211)
 
-FONT_REG = Path(r"C:\Windows\Fonts\NotoSansKR-VF.ttf")
-FONT_BOLD = Path(r"C:\Windows\Fonts\malgunbd.ttf")
-FALLBACK_REG = Path(r"C:\Windows\Fonts\malgun.ttf")
-FALLBACK_BOLD = Path(r"C:\Windows\Fonts\malgunbd.ttf")
+FONT_CANDIDATES_REG = [
+    Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    Path("/System/Library/Fonts/Supplemental/AppleGothic.ttf"),
+    Path("/System/Library/Fonts/Supplemental/NotoSansGothic-Regular.ttf"),
+    Path(r"C:\Windows\Fonts\NotoSansKR-VF.ttf"),
+    Path(r"C:\Windows\Fonts\malgun.ttf"),
+]
+FONT_CANDIDATES_BOLD = [
+    Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    Path("/System/Library/Fonts/Supplemental/AppleGothic.ttf"),
+    Path(r"C:\Windows\Fonts\malgunbd.ttf"),
+    Path(r"C:\Windows\Fonts\malgun.ttf"),
+]
 
 
 def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    path = FONT_BOLD if bold else FONT_REG
-    if not path.exists():
-        path = FALLBACK_BOLD if bold else FALLBACK_REG
-    return ImageFont.truetype(str(path), size)
+    for path in FONT_CANDIDATES_BOLD if bold else FONT_CANDIDATES_REG:
+        if path.exists():
+            return ImageFont.truetype(str(path), size)
+    return ImageFont.load_default()
 
 
 def text_size(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont) -> tuple[int, int]:

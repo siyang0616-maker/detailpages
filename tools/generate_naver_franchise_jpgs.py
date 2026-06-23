@@ -8,13 +8,23 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 
-ROOT = Path(r"C:\Users\home\Documents\detailpages")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "franchise-detail-page-outputs" / "20260617-uijeongbu-megacoffee-naver"
 ASSETS = OUT / "assets"
 CUTS = OUT / "cuts-jpg"
 
-FONT_REG = Path(r"C:\Windows\Fonts\malgun.ttf")
-FONT_BOLD = Path(r"C:\Windows\Fonts\malgunbd.ttf")
+FONT_CANDIDATES_REG = [
+    Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    Path("/System/Library/Fonts/Supplemental/AppleGothic.ttf"),
+    Path("/System/Library/Fonts/Supplemental/NotoSansGothic-Regular.ttf"),
+    Path(r"C:\Windows\Fonts\malgun.ttf"),
+]
+FONT_CANDIDATES_BOLD = [
+    Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    Path("/System/Library/Fonts/Supplemental/AppleGothic.ttf"),
+    Path(r"C:\Windows\Fonts\malgunbd.ttf"),
+    Path(r"C:\Windows\Fonts\malgun.ttf"),
+]
 
 W = H = 1080
 BG = (47, 20, 12)
@@ -37,7 +47,10 @@ class Cut:
 
 
 def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT_BOLD if bold else FONT_REG), size)
+    for path in FONT_CANDIDATES_BOLD if bold else FONT_CANDIDATES_REG:
+        if path.exists():
+            return ImageFont.truetype(str(path), size)
+    return ImageFont.load_default()
 
 
 def text_box(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont) -> tuple[int, int]:
